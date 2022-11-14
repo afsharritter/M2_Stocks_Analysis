@@ -12,13 +12,13 @@ The majority of companies provided higher returns on their stocks in 2017 rather
 
 Almost all of the companies (11/12) analyzed in this project yeilded positive Returns on their stocks in 2017.  See Figure 1.
 
-![Figure 1](/Resources/Stock_Data_2017.png "Figure 1: Stock Data 2017")
+![Figure 1](/resources/Stock_Data_2017.png "Figure 1: Stock Data 2017")
 
 TERP was the only company with a negative return in 2017 (-7.2%). SEDG yielded the greatest return (+184.5%)
 
 In 2018, the majority of companies (10/12) yielded negative returns. See Figure 2. 
 
-![Figure 2](/Resources/Stock_Data_2018.png "Figure 2: Stock Data 2018")
+![Figure 2](/resources/Stock_Data_2018.png "Figure 2: Stock Data 2018")
 
 DQ had the lowest return (-62.6%). Only ENPH and RUN yielded positive returns (81.9% and 84.0%, respectively).
 
