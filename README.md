@@ -87,12 +87,12 @@ For i = 2 To RowCount
         tickerEndingPrices(tickerIndex) = Cells(i, 6).Value    
     End If    
 
-        'Increase the tickerIndex. 
-        If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i + 1, 1).Value <> tickers(tickerIndex) Then 
+    'Increase the tickerIndex. 
+    If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i + 1, 1).Value <> tickers(tickerIndex) Then 
             tickerIndex = tickerIndex + 1
-        End If
+    End If
     
-    Next i 
+Next i 
 ```
 
 Using a single for-loop instead of a nested for-loop, the refactored code runs more efficiently than the original. For the 2017 dataset, the original code took 0.615 seconds to run, while the refactored code took 0.141 seconds, showing a 77% improvement in runtime. See Figures 3 and 4 for 2017's Original and Refactored Runtimes.
