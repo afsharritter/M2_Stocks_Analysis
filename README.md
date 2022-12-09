@@ -103,7 +103,7 @@ Using a single for-loop instead of a nested for-loop, the refactored code runs m
 
 For 2018, the original code took 0.631 seconds to run, while the refactored code took 0.172 seconds, showing a 73% improvement in runtime. See Figures 5 and 6 for 2018's Original and Refactored Runtimes.
 
-![Figure 5](/resources/Orginal_MB_2018.png "Figure 5: Original Runtime, 2018")
+![Figure 5](/resources/Original_MB_2018.png "Figure 5: Original Runtime, 2018")
 
 ![Figure 6](/resources/VBA_Challenge_2018.png "Figure 6: Refactored Runtime, 2018")
 
