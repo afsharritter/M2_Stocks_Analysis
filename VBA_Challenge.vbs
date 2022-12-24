@@ -79,10 +79,10 @@ Sub AllStocksAnalysisRefactored()
         tickerEndingPrices(tickerIndex) = Cells(i, 6).Value    
         End If    
 
-            '3d Increase the tickerIndex. 
-            If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i + 1, 1).Value <> tickers(tickerIndex) Then 
-            tickerIndex = tickerIndex + 1
-            End If
+        '3d Increase the tickerIndex. 
+        If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i + 1, 1).Value <> tickers(tickerIndex) Then 
+        tickerIndex = tickerIndex + 1
+        End If
     
     Next i 
     
